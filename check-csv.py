@@ -48,7 +48,7 @@ if __name__ == "__main__":
             if base.message != "":
                 bot.send_message(message.chat.id, base.message)
             base.rewrite()
-            time.sleep(60)
+            time.sleep(10)
             i += 1
 
 
