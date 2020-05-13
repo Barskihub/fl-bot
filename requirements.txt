@@ -7,11 +7,13 @@ cachetools==4.1.0
 certifi==2019.11.28
 cffi==1.14.0
 chardet==3.0.4
+click==7.1.2
 constantly==15.1.0
 cryptography==2.8
 cssselect==1.1.0
 cycler==0.10.0
 decorator==4.4.2
+Flask==1.1.2
 future==0.18.2
 gast==0.3.3
 google-auth==1.14.2
@@ -25,10 +27,13 @@ idx2numpy==1.2.2
 importlib-metadata==1.6.0
 incremental==17.5.0
 isort==4.3.21
+itsdangerous==1.1.0
+Jinja2==2.11.2
 kiwisolver==1.2.0
 lazy-object-proxy==1.4.2
 lxml==4.5.0
 Markdown==3.2.2
+MarkupSafe==1.1.1
 matplotlib==3.2.1
 mccabe==0.6.1
 numpy==1.18.4
