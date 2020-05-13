@@ -49,7 +49,7 @@ def start_message(message):
         if base.message != "":
             bot.send_message(message.chat.id, base.message)
         base.rewrite()
-        time.sleep(60)
+        time.sleep(30)
 
 
 # Проверим, есть ли переменная окружения Хероку (как ее добавить смотрите ниже)
