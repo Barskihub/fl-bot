@@ -41,14 +41,14 @@ if __name__ == "__main__":
     @bot.message_handler(commands=['start'])
     def start_message(message):
         i = 0
-        while i < 60:
+        while i < 60000:
             subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
             base.open()
             base.check()
             if base.message != "":
                 bot.send_message(message.chat.id, base.message)
             base.rewrite()
-            time.sleep(10)
+            time.sleep(60)
             i += 1
 
 
