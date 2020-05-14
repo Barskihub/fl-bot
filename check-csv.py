@@ -36,12 +36,11 @@ class CheckBase:
         self.base1 = {}
         self.message = ""
 
-
-base = CheckBase("fl-python.csv")
 bashCommand = "scrapy runspider fl/spiders/fl_title.py"
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
+    base = CheckBase("fl-python.csv")
     while True:
         subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
         base.open()
