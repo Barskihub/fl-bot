@@ -23,7 +23,7 @@ class CheckBase:
 
     def check(self):
         for x in self.base1:
-            if "ленд" in x or "Ленд" in x or "Сайт" in x or "сайт" in x or "верст" in x or "Верст" in x or "парс" in x or "Парс" in x:
+            if "Питон" in x or "Python" in x or "python" in x or "питон" in x or "ленд" in x or "Ленд" in x or "Сайт" in x or "сайт" in x or "верст" in x or "Верст" in x or "парс" in x or "Парс" in x:
                 if self.base2.get(x) == self.base1.get(x):
                     print("Найдено соответствие")
                 else:
